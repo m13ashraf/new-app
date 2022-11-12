@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700;900&display=swap');
+
+
+:root{
+    --mainColor:#ffc527;
+}
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: "Tajawal",sans-serif;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.section_title{
+    position: relative;
+    display: inline-block;
+    margin-bottom:50px ;
+}
+.section_title:after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -10px;
+    width: 120px;
+    height: 5px;
+    background-color: var(--mainColor);
+}
+.navbar{
+    box-shadow: 1px 2px 5px #ebebebeb;
+    
+    font-size: 15px;
+}
+.navbar li{
+    margin: 7px;
+}
+
+/* About */
+
+.my-p{
+    font-size: 20px;
+    margin-bottom:20px ;
+
+}
+
+
+/* News*/
+
+.news .news-left,
+.footer-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.news .news-left img,
+.footer-left img
+{
+    max-width: 20 px;
+    margin-left: 10px;
+}
+
+/* 
+ Sapscripe  */
+
+ .subscribe{
+    height: 450px;
+    background-image: url(../img/subscribe-our-newsletter-bg.jpg);
+    background-size: cover;
+    padding: 1px;
+    position: relative;
+ }
+ .subscribe_item{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    
+ }
+ .subscribe_item h2 {
+    font-size: 40px;
+ }
+ .subscribe_item .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .subscribe_item .form input{
+width: 80%;
+ }
+
+ .subscribe_item button{
+    width: 15%;
+ }
+
+ /* footer */
+
+ footer{
+    background-color: #071c33;
+    padding: 80px 0;
+    color: #fff;
+ }
+ footer h3{
+    background: #fff;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+ }
+
+ .footer-left{
+    font-size: 12px;
+ }
+ .footer-left img{
+    max-width: 100px;
+ }
+
+
+
+ /* ************ Blog****/
+
+ .breadcrumb{
+    margin: 0;
+    justify-content: flex-end;
+ }
+ .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+   
+ }
+
+ /* *******section******* */
+.blog .jumbotron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--mainColor);
+}
+.blog .jumbotron .blog-desc{
+   width: 55%;
+}
+.blog .jumbotron .blog-desc h4{
+  
+    font-size: 18px;
+}
+
+.blog .jumbotron .blog-img{
+   width: 40%;
+} 
+
+
+.section-carde{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+
+
+
+.card-txt{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   border-bottom: 2px solid var(--mainColor);
+    
+}
+
+.card-txt .foto-txt{
+    width: 30%;
+
+   
+   
+}
+
+.card-txt .foto-txt img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.card-txt .most{
+ 
+    width: 70%;
+    margin-right: 30px;
+}
